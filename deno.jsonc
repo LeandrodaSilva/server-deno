@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "cli": "deno run --allow-read --allow-write cli.ts",
+    "install": "deno install --allow-read --allow-write --allow-env cli.ts",
+    "remove": "deno uninstall server-deno"
+  }
+}
